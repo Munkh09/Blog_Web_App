@@ -1,0 +1,8 @@
+CREATE DATABASE dojo_blogs;
+
+CREATE TABLE blog (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    author VARCHAR(250) NOT NULL,
+    title VARCHAR(250) NOT NULL,
+    body TEXT NOT NULL
+)
